@@ -25,12 +25,15 @@ public class Frames{
 	}
 	
 	public void CreateFrame() {
+		
 		add.addActionListener(new ActionListener() {
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				AddOne();
 			}
 		});
 		remove.addActionListener(new ActionListener() {
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				TakeOne();
 			}
